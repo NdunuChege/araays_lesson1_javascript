@@ -1,0 +1,14 @@
+Arrays are special types of variables that holds more than one item at once
+let <variable_name> = []
+array methods :non-destructive and destructive
+
+   non-destructive - slice(), concat()
+   destructive - splice(), push(), pop(), unshift(), shift()
+
+   push() - <array name>.push("<data_type_element">), addin an anonymous function, the name is omitted. These functions are often used in situations where you don’t need to reuse the function outside its immediate context.
+   How splice works
+   1. splice(<start_index>, <no_of_elements>)
+   2. slice() -  creating a copy of the original
+
+   Anonymous functions - usually created for specific tasks, assigned to variables or used as arguments for other functions, in an anonymous function, the name is omitted.
+                       - these functions are often used in situations where you don’t need to reuse the function outside its immediate context.
